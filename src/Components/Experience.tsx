@@ -1,6 +1,6 @@
 import { Text, Timeline, useMatches } from "@mantine/core";
 import { IconBriefcaseFilled, IconGitBranch, IconGitCommit, IconGitPullRequest, IconMessageDots } from "@tabler/icons-react";
-import { ExperienceInfo } from "../User";
+// import { ExperienceInfo } from "../User";
 
 const TimelineItem = (items: any) => {
     const size=useMatches({
@@ -33,22 +33,22 @@ const TimelineItem = (items: any) => {
 }
 
 const Experience = () => {
-    const size=useMatches({
-        xs:15,
-        md:20,
-    })
-    const dot=useMatches({
-        xs:25,
-        md:30,
-    })
-    return <div className="px-16 mx-20 md-mx:px-6 sm-mx:px-2 lg-mx:mx-0 my-10 mb-28 font-mono" id="Experience">
-        <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl  mb-10 font-bold text-center text-white"><span className="text-primaryColor">&nbsp;</span>Experience</h1>
-        <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
-            {
-                TimelineItem(ExperienceInfo)
-            }
-            <Timeline.Item bullet={<IconBriefcaseFilled className="!text-bgColor" size={size} />} ></Timeline.Item>
-        </Timeline>
-    </div>
+    // const size=useMatches({
+    //     xs:15,
+    //     md:20,
+    // })
+    // const dot=useMatches({
+    //     xs:25,
+    //     md:30,
+    // })
+    // return <div className="px-16 mx-20 md-mx:px-6 sm-mx:px-2 lg-mx:mx-0 my-10 mb-28 font-mono" id="Experience">
+    //     <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl  mb-10 font-bold text-center text-white"><span className="text-primaryColor">&nbsp;</span>Experience</h1>
+    //     <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
+    //         {
+    //             TimelineItem(ExperienceInfo)
+    //         }
+    //         <Timeline.Item bullet={<IconBriefcaseFilled className="!text-bgColor" size={size} />} ></Timeline.Item>
+    //     </Timeline>
+    // </div>
 }
 export default Experience;
