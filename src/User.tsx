@@ -148,4 +148,5 @@ const Slugs = [
     // "sonarqube",
     "figma",
 ];
-export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };
+export { Info, ProjectInfo,socialLinks, SkillInfo, Slugs };
+// /*ExperienceInfo,/ add if want
