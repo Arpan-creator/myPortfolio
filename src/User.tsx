@@ -53,15 +53,7 @@ const ProjectInfo = [
     //     link: "https://github.com/Code-Mars/Instagram-Clone",
     //     github: "https://github.com/Code-Mars/Instagram-Clone"
     // },
-    // {
-    //     title: "CodeX Code Editor",
-    //     desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
-    //     image: "CodeX.png",
-    //     live: false,
-    //     technologies: ["React", "Tailwind", "Ace Editor"],
-    //     link: "https://github.com/Code-Mars/CodeX",
-    //     github: "https://github.com/Code-Mars/CodeX"
-    // }
+    
 ]
 
 
@@ -95,19 +87,20 @@ const socialLinks = [
 
 
 const ExperienceInfo = [
+    // {
+    //     role: "Specialist Programmer",
+    //     company: "Infosys",
+    //     date: "Oct 2023 - Present",
+    //     desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
+    //     skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
+    // },
     {
-        role: "Specialist Programmer",
-        company: "Infosys",
-        date: "Oct 2023 - Present",
-        desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
-    },
-    {
-        role: "System Engineer",
-        company: "Infosys",
-        date: "Nov 2022 - Sep 2023",
-        desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-        skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
+        role: "Full Stack Developer",
+        company: "Qicpic Innovations Pvt. Ltd",
+        date: "Dec 2024 - Present",
+        desc: "I leveraged my skills in Node.js, Express.js, React.js, and PostgreSQL to develop scalable backend APIs and interactive dashboards for the CAP platform. I integrated payment systems, WebSocket-based real-time updates, and Kafka for inter-service messaging. I deployed services on AWS, implemented secure image handling with encryption/decryption, and collaborated with cross-functional teams to ensure seamless integration and delivery.",
+        skills: ["Node.js", "Express.js", "React.js", "Redux", "PostgreSQL", "Kafka", "WebSocket", "AWS", "JavaScript", "API Development", "Microservices", "Encryption", "Team Collaboration"]
+
     }
 ]
 const Slugs = [
@@ -148,5 +141,5 @@ const Slugs = [
     // "sonarqube",
     "figma",
 ];
-export { Info, ProjectInfo,socialLinks, SkillInfo, Slugs };
+export { Info, ProjectInfo,socialLinks, SkillInfo, Slugs,ExperienceInfo };
 // /*ExperienceInfo,/ add if want

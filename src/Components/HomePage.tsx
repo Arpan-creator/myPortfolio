@@ -26,7 +26,7 @@ const HomePage = () => {
         <About />
         <Projects />
         <Skills />
-        {/* <Experience /> */}
+        <Experience />
         <GitHubStats/>
         <Contact />
         <Footer/>
