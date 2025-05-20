@@ -96,7 +96,7 @@ const ExperienceInfo = [
     // },
     {
         role: "Full Stack Developer",
-        company: "Qicpic Innovations Pvt. Ltd",
+        company: "Qicpic",
         date: "Dec 2024 - Present",
         desc: "I leveraged my skills in Node.js, Express.js, React.js, and PostgreSQL to develop scalable backend APIs and interactive dashboards for the CAP platform. I integrated payment systems, WebSocket-based real-time updates, and Kafka for inter-service messaging. I deployed services on AWS, implemented secure image handling with encryption/decryption, and collaborated with cross-functional teams to ensure seamless integration and delivery.",
         skills: ["Node.js", "Express.js", "React.js", "Redux", "PostgreSQL", "Kafka", "WebSocket", "AWS", "JavaScript", "API Development", "Microservices", "Encryption", "Team Collaboration"]
