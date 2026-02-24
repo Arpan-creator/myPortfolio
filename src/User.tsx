@@ -60,7 +60,7 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "TypeScript", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
+        skills: ["HTML", "CSS", "JavaScript", "React JS", "TypeScript", "Redux", "Tailwind CSS", "React Native", "Material UI", "Bootstrap"
         ]
     },
     {
@@ -87,17 +87,18 @@ const socialLinks = [
 
 
 const ExperienceInfo = [
-    // {
-    //     role: "Specialist Programmer",
-    //     company: "Infosys",
-    //     date: "Oct 2023 - Present",
-    //     desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-    //     skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
-    // },
+    {
+        role: "Frontend Developer",
+        company: "Cleartrip(Flipkart)",
+        date: "Aug 2025 - Present",
+        desc: "I led frontend development using React.js, TypeScript, and React Native to build scalable, high-traffic user interfaces for Cleartrip and Flipkart Travel. I optimized performance by tightly integrating frontend components with backend REST APIs and delivering real-time flight tracking and pricing features. I enhanced platform security by resolving critical vulnerabilities across mobile and desktop and collaborated in agile, cross-functional teams to deliver reliable, high-quality solutions at scale.",
+        skills: ["React JS", "TypeScript", "React Native", "JavaScript", "Node JS", "REST APIs", "Frontend Performance Optimization", "Web Security"]
+
+    },
     {
         role: "Full Stack Developer",
         company: "Qicpic",
-        date: "Dec 2024 - Present",
+        date: "Dec 2024 - May 2025",
         desc: "I leveraged my skills in Node.js, Express.js, React.js, and PostgreSQL to develop scalable backend APIs and interactive dashboards for the CAP platform. I integrated payment systems, WebSocket-based real-time updates, and Kafka for inter-service messaging. I deployed services on AWS, implemented secure image handling with encryption/decryption, and collaborated with cross-functional teams to ensure seamless integration and delivery.",
         skills: ["Node.js", "Express.js", "React.js", "Redux", "PostgreSQL", "Kafka", "WebSocket", "AWS", "JavaScript", "API Development", "Microservices", "Encryption", "Team Collaboration"]
 
@@ -135,7 +136,7 @@ const Slugs = [
     "git",
     "jira",
     "github",
-    "gitlab",
+    "Bitbucket",
     "visualstudiocode",
     // "androidstudio",
     // "sonarqube",
