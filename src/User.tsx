@@ -27,6 +27,15 @@ const ProjectInfo = [
         github: "https://github.com/Arpan-creator/Equality-Experts_024"
     },
     {
+        title: "Ask Your AI",
+        desc: "This project presents a React-based web application that replicates an AI chatbot experience. It features a user-friendly interface that allows users to ask questions and receive informative responses in a conversational format.",
+        image: "GeminiBot.png",
+        live: false,
+        technologies: [ "React","JavaScript", "Gemini API", "HTML5", "CSS3"],
+        link: "https://legendary-trifle-5f0204.netlify.app/",
+        github: "https://github.com/Arpan-creator/Ask-Your-AI"
+    },
+    {
         title: "Learners Hub",
         desc: "Learners Hub is an innovative educational platform designed to provide free, high-quality education to anyone, anywhere. By leveraging technology, it makes educational resources accessible to all students, regardless of their geographic or economic backgrounds.",
         image: "Learners_Hub.png",
