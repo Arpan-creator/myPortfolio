@@ -2,7 +2,7 @@ import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinked
 const Info = {
     name: "Arpan Kundu",
     stack: [ "Full Stack Developer", "Competitive Programmer", "Freelancer"],
-    bio: "I'm a passionate software developer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!"
+    bio: "I’m a passionate software developer having about 1.5 YOE, focused on creating scalable and high-quality web applications that deliver meaningful user experiences. I enjoy working with modern technologies to build efficient, maintainable, and performance-driven solutions. My goal is to continuously grow as a developer while solving real-world problems and contributing to impactful digital products."
 }
 
 
@@ -83,6 +83,10 @@ const SkillInfo = [
     {
         title: "Tools",
         skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Pycharm"]
+    },
+    {
+        title: "Soft Skills",
+        skills: ["Ownership", "Problem Solving", "Adaptability", "Critical Thinking"]
     }
 ]
 const socialLinks = [

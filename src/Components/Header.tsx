@@ -3,8 +3,9 @@ import SideBar from "./SideBar";
 import { useMediaQuery } from "@mantine/hooks";
 import { em } from "@mantine/core";
 import { useEffect, useState } from "react";
+import Resume from "./Resume";
 
-const links = ["Home", "About", "Projects", "Skills",  "Contact"];
+const links = ["Home", "About", "Experience", "Projects", "Skills", "Resume", "Contact"];
 // add Experience later
 const navLinks = (col: Boolean, clicked: any) => {
   const handleClick = (link: string) => {
@@ -13,7 +14,9 @@ const navLinks = (col: Boolean, clicked: any) => {
     if (link === "Home") {
       // Scroll to the top of the page for "Home" link
       window.scrollTo({ top: 0, behavior: "smooth" });
-    } else {
+    }
+
+    else {
       // For other links, scroll to the corresponding section
       const section = document.querySelector(`#${link}`);
       if (section) section.scrollIntoView({ behavior: "smooth" });
@@ -21,16 +24,20 @@ const navLinks = (col: Boolean, clicked: any) => {
   };
 
   return links.map((link) => {
-    return (
-      <a
-        onClick={() => handleClick(link)}
-        className={`${col ? "flex flex-col items-center" : ""} text-textColor text-lg font-mono hover:text-primaryColor`}
-        href={link === "Home" ? "#" : `#${link}`} // Home navigates to "#"
-      >
-        <span className="text-primaryColor"> </span>
-        {link}
-      </a>
-    );
+    if (link === "Resume") {
+     return <Resume />;
+    }
+    else
+      return (
+        <a
+          onClick={() => handleClick(link)}
+          className={`${col ? "flex flex-col items-center" : ""} text-textColor text-lg font-mono hover:text-primaryColor`}
+          href={link === "Home" ? "#" : `#${link}`} // Home navigates to "#"
+        >
+          <span className="text-primaryColor"> </span>
+          {link}
+        </a>
+      );
   });
 };
 
@@ -48,10 +55,10 @@ const Header = () => {
     setLastScrollY(window.scrollY);
   };
 
-//   useEffect(() => {
-//     window.addEventListener("scroll", controlNavbar);
-//     return () => window.removeEventListener("scroll", controlNavbar);
-//   });
+  //   useEffect(() => {
+  //     window.addEventListener("scroll", controlNavbar);
+  //     return () => window.removeEventListener("scroll", controlNavbar);
+  //   });
 
   return (
     <nav
